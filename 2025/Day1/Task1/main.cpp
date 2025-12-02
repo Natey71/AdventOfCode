@@ -36,7 +36,7 @@ int main()
         }
       // std::cout << "Current pos: " << pos << std::endl;
     }
-    std:cout << "Count of Zero: " << zero_count;
+    std:cout << "Count of Zero: " << zero_count << std::endl;
 
     file.close();
     

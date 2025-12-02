@@ -48,7 +48,7 @@ int countMovement(int start, int amount, char direction) {
 
 int main() 
 {
-    std::ifstream file("file.txt");   
+    std::ifstream file("../file.txt");   
     // std::ifstream fil("sample1.txt");
     if (!file.is_open()) {
         std::cerr << "Error opening file!" << std::endl;
