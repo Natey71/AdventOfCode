@@ -32,7 +32,7 @@ int main(){
     while(true){
         std::string toHash = secret + std::to_string(n);
         std::string hash = md5(toHash);
-        if(hash.substr(0,5) == "00000"){
+        if(hash.substr(0,6) == "000000"){
             std::cout << "Found! n = " << n << " gives hash: " << hash << std::endl;
             break;
         }
