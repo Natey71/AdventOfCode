@@ -17,15 +17,8 @@
 bool hasDoubleLetter(const std::string &s) {
     for(size_t i = 1; i < s.length(); i++) {
         if(s[i] == s[i-1]) {
-            std::string doubleFound = s[i] + s[i-1];
-            continue;
+            return true;
         }
-        else {
-            return false;
-        }
-    }
-    if(&s.find(doubleFound) != nullptr) {
-        return true;
     }
     return false;
 }
@@ -75,5 +68,6 @@ int main() {
     }
     */
     std::cout << "Total good strings: " << goodStrings.size() << std::endl; 
+    std::cout << _cplusplus_version << std::endl;
     return 0;
 }
