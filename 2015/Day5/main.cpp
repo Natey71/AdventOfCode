@@ -4,6 +4,12 @@
     - Contains at lease one letter that appears twice in a row
     - Does not contain the strings "ab", "cd", "pq", or "xy"
 */
+/*
+    Conditions of Satisfaction - Part 2
+    - Contains a pair of any two letters that appears at least twice in the string without overlapping (aa, xyxy, aabcdefgaa)
+    - Contains at least one letter which repeats with exactly one letter between them (xyx, aba, efe, aaa)
+
+*/
 #include <iostream>
 #include <fstream>
 #include <vector>
