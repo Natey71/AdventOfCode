@@ -11,14 +11,21 @@
 bool hasDoubleLetter(const std::string &s) {
     for(size_t i = 1; i < s.length(); i++) {
         if(s[i] == s[i-1]) {
-            return true;
+            std::string doubleFound = s[i] + s[i-1];
+            continue;
         }
+        else {
+            return false;
+        }
+    }
+    if(&s.find(doubleFound) != nullptr) {
+        return true;
     }
     return false;
 }
 
 int main() {
-    std::ifstream file("file.txt");
+    std::ifstream file("test.txt");
     if(!file.is_open()) {
         std::cerr << "Error opening file." << std::endl;
         return 1;  
