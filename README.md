@@ -84,10 +84,10 @@ Below is a generated-style progress table.
 
 ## 🛠️ Tools & Technology
 
-- **Language:** C++17 / C++20
-- **Build System:** CMake
-- **Compiler:** GCC/Clang (depending on environment)
-- **OS:** Linux (primary development)
+- **Language:** C++11
+- **Build System:** None
+- **Compiler:** GCC 11.4.0 / Clang (depending on environment)
+- **OS:** Linux (ssh from windows to run on home server)
 - **Goals:**  
   - Learn modern C++ idioms  
   - Practice writing safer, cleaner code  
